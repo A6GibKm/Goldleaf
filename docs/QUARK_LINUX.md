@@ -25,6 +25,12 @@ Set udev rule or run java as root. Ensure maven and JDK11 are installed and set 
     mvn -B -DskipTests clean package
     java -jar target/Quark.jar
 
+## Requirements
+
+On Fedora and Fedora Silverblue, the following packages are required in order to run Quark.
+
+    sudo dnf install java-1.8.0-openjdk java-1.8.0-openjdk-openjfx
+
 ## Important notes
 
 With Java 12 choosing directly a file (Select file from Goldleaf) doesn't work yet.
